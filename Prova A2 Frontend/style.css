@@ -1,0 +1,284 @@
+    body {
+        background-image: url(bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .divTituloCentral {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: monospace;
+    }
+    
+    .divTituloCentral h1 {
+        font-size: 50px;
+        margin-top: 80px;
+    }
+    
+    .divTextoCentral {
+        opacity: 100%;
+        padding: 16px;
+        border: double rgb(255, 0, 0);
+        width: 600px;
+        margin: 0 auto;
+        font-family: monospace;
+        background-color: black;
+        transition: 2.0s;
+    }
+    
+    .divTextoCentral {
+        color: rgb(255, 255, 255);
+        font-family: monospace;
+        text-align: justify;
+    }
+    
+    .divTextoCentral p {
+        color: white;
+        font-family: monospace;
+        text-align: justify;
+    }
+    
+    .navbar {
+        width: 100%;
+        margin: auto;
+        padding: 5px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .logo {
+        width: 130px;
+        cursor: pointer;
+    }
+    
+    .navbar ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+    }
+    
+    .navbar ul li a {
+        font-family: monospace;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        transition: 0.5s;
+    }
+    
+    .navbar a:hover {
+        color: red;
+    }
+    
+    .divDois {
+        padding: 16px;
+        border: double rgb(255, 0, 0);
+        width: 600px;
+        margin: 0 auto;
+        background: 533C8F;
+        transition: 1.0s;
+    }
+    
+    .divDois p {
+        color: white;
+        font-family: monospace;
+        text-align: justify;
+    }
+    
+    .divDois img {
+        position: relative;
+        left: 81px;
+        border: double rgb(255, 0, 0);
+        padding: 10px;
+    }
+    
+    .divDois h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        text-align: center;
+        color: white;
+        font-family: monospace;
+        text-transform: uppercase;
+    }
+    
+    .divTextoCentral img {
+        height: 690px;
+        width: 500px;
+        border: double red;
+        position: relative;
+        left: 31px;
+    }
+    
+    .divTextoCentral h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        text-align: center;
+        color: white;
+        font-family: monospace;
+        text-transform: uppercase;
+    }
+    /*CONTATOS------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    
+    #tituloform {
+        font-family: monospace;
+        color: rgb(255, 0, 0);
+        margin-left: 18%;
+    }
+    
+    #subtituloform {
+        font-family: monospace;
+        color: white;
+        margin-top: 0px;
+        margin-left: 18%;
+    }
+    
+    .corpoform {
+        font-family: monospace;
+        font-size: 15px;
+        color: red;
+        margin-left: 36%;
+        margin-top: 2%;
+        width: min-content;
+        padding: 10px;
+        border-radius: 2px;
+        border: double red 4px;
+    }
+    
+    input,
+    select,
+    textarea,
+    button {
+        font-family: monospace;
+        font-size: 15px;
+        color: #000000;
+        border-radius: 12px;
+        border: rgb(0, 0, 0) solid 2px;
+    }
+    
+    .campo {
+        margin-bottom: 15px;
+        display: inline-block;
+        align-items: center;
+        width: min-content;
+        ;
+    }
+    
+    .campo label {
+        margin-bottom: 0.7em;
+        color: rgb(255, 255, 255);
+        display: block;
+    }
+    
+    .botao:hover {
+        background-color: red;
+        color: white;
+        transition: 0.5s;
+    }
+    
+    .card-title {
+        color: rgb(255, 255, 255);
+        font-family: monospace;
+        font-size: 23px;
+        font-weight: 500;
+    }
+    
+    .card {
+        background-color: black;
+        border: transparent;
+        margin: 20px;
+    }
+    
+    .btn {
+        font-family: monospace;
+        background-color: white;
+        color: red;
+        transition: 0.5s;
+        border: transparent;
+        margin-left: 93px;
+    }
+    
+    .btn:hover {
+        background-color: red;
+        color: white;
+    }
+    
+    .card-text {
+        background-color: red;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: white;
+    }
+    
+    .showroom {
+        display: flex;
+    }
+    
+    .card-img-top {
+        width: 90%;
+        height: 90%;
+        margin: 18px;
+        border-radius: 1%;
+    }
+    
+    .anuncio {
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    
+    footer {
+        background-color: rgba(75, 0, 0, 0.767);
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    footer p {
+        color: rgba(248, 248, 248, 0.945);
+        text-align: center;
+    }
+    
+    footer h3 {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .linha {
+        padding: 5px;
+        font-style: italic;
+    }
+    
+    .bordinha {
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .footer-up a :hover {
+        transform: scale(125%);
+        transition: 1s;
+    }
+    
+    .carousel-inner {
+        width: 500px;
+        margin-left: 30%;
+    }
+    
+    .fotocarrosel {
+        width: 100%;
+        border-radius: 5%;
+        height: 50%;
+    }
+    
+    .divquemsomos {
+        width: 60%;
+        text-align: justify;
+        position: relative;
+        left: 450px;
+    }
+    
